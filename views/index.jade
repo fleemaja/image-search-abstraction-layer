@@ -11,6 +11,20 @@ html
         blockquote
           p User stories:
           ul
-            li I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
-            li I can paginate through the responses by adding a ?offset=2 parameter to the URL.
-            li I can get a list of the most recently submitted search strings.
+            li 
+              p I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+              p 
+                b Example URL: 
+                code https://guarded-meadow-55288.herokuapp.com/imagesearch/tacos
+            br
+            li
+              p I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+              p
+                b Example URL:
+                code https://guarded-meadow-55288.herokuapp.com/imagesearch/tacos?offset=100
+            br
+            li 
+              p I can get a list of the most recently submitted search strings.
+              p
+                b Example URL:
+                code https://guarded-meadow-55288.herokuapp.com/latest
